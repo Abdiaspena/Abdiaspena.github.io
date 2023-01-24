@@ -446,15 +446,8 @@ footer{
         height: 10vh;
         background: #cfc3b3;
     }
-}
-
-/* --------------------- RESPONSIVE DESING 375px a 425px ---------------------------*/
-
-
-@media screen and (min-width: 375px) and (max-width: 425px){
-
-    
-    /* --------------- .container-start --------------- */ 
+} @media screen and (min-width: 375px) and (max-width: 425px) {
+     /* --------------- .container-start --------------- */ 
 
     .container-start {
         width: 100%;
@@ -654,6 +647,7 @@ footer{
         height: 30vh;
         background: #cfc3b3;
     }
-
-
 }
+
+/* ======= */
+/* >>>>>>> 07e3ced7a0ceb7a2a0dd6945b0b57a90800e9cf8 */
