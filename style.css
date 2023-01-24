@@ -261,7 +261,7 @@ footer{
     color: #101728;
 }
 
- /* -------------------------- RESPONSIVE DESING -------------------------------*/
+ /* --------------------- RESPONSIVE DESING 768px a 1024px-------------------------------*/
 
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
@@ -442,8 +442,218 @@ footer{
     }
 
     footer {
-        width: 110%;
+        width: 100%;
         height: 10vh;
         background: #cfc3b3;
     }
+}
+
+/* --------------------- RESPONSIVE DESING 375px a 425px ---------------------------*/
+
+
+@media screen and (min-width: 375px) and (max-width: 425px){
+
+    
+    /* --------------- .container-start --------------- */ 
+
+    .container-start {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .container-start{
+        /* display: grid; */
+    }
+
+
+
+    .start-logo{
+        display: flex;
+        justify-content: space-between;
+        /* align-items: flex-end; */
+    }
+
+    .foto-abdi{
+        width: 25px;
+        border-radius: 50%;
+    }
+
+
+    .start-logo h3{
+        font-size: 20px;
+    }
+
+
+    .text{
+        display: grid;
+    }
+
+    .start-introduction{
+        display: grid;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        padding: 10px 0px 10px 65px;
+    }
+
+    .start-introduction h1{ 
+        
+        margin: 5px;
+        color: #f2f2f2;
+        font-size: 35px;
+        text-transform: uppercase;
+    
+    }
+    
+
+    .start-img {
+        padding: 20px 0 0 0 ; 
+    }
+
+    .start-img img{
+        width: 250px;
+        height: 250px;
+        border-radius: 5%;
+    }
+
+
+
+    /* --------------- .container-aboutme --------------- */ 
+
+    .container-aboutme {
+        width: 100%;
+        height: 70vh;
+        display: grid;
+
+    }
+
+
+    .container-aboutme h2 {
+        color: #f2f2f2;
+        padding: 5px 15px;
+        margin: 2.5px 20px;
+        font-size: 20px;
+        align-content: center;
+    }
+
+    .container-aboutme p {
+        color: #cfc3b3;
+        padding: 4px;
+        margin: 2.5px 20px;
+        font-size: 15px;
+    }
+
+    .container-aboutme span{
+        color: #6bacf7;
+    }
+    #crecer{
+        color: #6bacf7;
+    }
+
+    /* --------------- .container-proyects --------------- */ 
+
+    .container-proyects {
+        width: 100%;
+        height: 90vh;
+
+        display: grid;
+    }
+
+    .proyects {
+        display: grid;
+        padding: 0px 0px 0 20px;
+        flex-wrap: nowrap;
+        align-content: space-between;
+        justify-items: center;
+    }
+
+    .container-proyects h1{
+
+        font-size: 40px;
+    }
+    
+    .container-proyects p{
+        font-size: 20px;
+    }
+
+    .proyects-text {
+        padding: 10px;
+        align-items: center;
+    }
+
+    .proyects-img {
+        padding: 0 ;
+    }   
+    
+    .container-proyects img{
+        width: 250px;
+        height: 250px;
+    }
+
+    
+
+    /* --------------- .container-future --------------- */ 
+
+    .container-future {
+        width: 100%;
+        height: 120vh;
+
+        display: grid;
+    }
+
+    .future {
+        display: grid;
+    padding: 0px 0px 0 20px;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-items: center;
+    }
+
+    .future-text h1{
+        margin: 5px;
+        padding: 5px 0px 30px;
+        color: #4fcfa5;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+    .future-text p {
+        color: #cfc3b3 ;
+        font-size: 20px;
+    }
+
+
+    .container-future img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .future-text {
+        padding: 10px;
+        align-items: center;
+    }
+
+    .future-img {
+        padding: 30px;
+       
+    }  
+  
+    
+    .container-footer {
+        display: grid;
+
+        padding: 10px 20px;
+        background: #cfc3b3;
+        justify-content: space-around;
+
+    }
+
+    footer {
+        display: grid;
+        width: 100%;
+        height: 30vh;
+        background: #cfc3b3;
+    }
+
+
 }
